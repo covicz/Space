@@ -1,12 +1,22 @@
 :root{--main-font-family:'Dosis, sans-serif';
-
 }
+body {
+  background-image: url("../images/milky-way.png");
+}
+
 h1{
   font-family: var(--main-font-family);
-  font-weight: 700;
+  font-weight: 500;
   font-size: 80px;
+  margin: 45px 0;
   text-align: center;
   color: white;
 }
 
-body{background-image:url("../images/milky-way.png");}
+.git,
+.git a{
+  font-size: 14px;
+  color: white;
+}
+.nav-link{
+  color: white;}
