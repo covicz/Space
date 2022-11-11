@@ -4,13 +4,22 @@ body {
   background-image: url("../images/milky-way.png");
 }
 
-h1{
+h1
+{
   font-family: var(--main-font-family);
   font-weight: 500;
   font-size: 80px;
   margin: 45px 0;
   text-align: center;
   color: white;
+}
+h2{font-family: var(--main-font-family);
+  font-weight: 500;
+  font-size: 35px;
+  margin: 45px 0;
+  text-align: center;
+  color: white;
+
 }
 
 .git,
@@ -20,3 +29,6 @@ h1{
 }
 .nav-link{
   color: white;}
+@media(max-width: 576px){
+  h1,h2{font-size: 30px;}
+}
