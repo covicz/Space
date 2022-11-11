@@ -13,22 +13,29 @@ h1
   text-align: center;
   color: white;
 }
-h2{font-family: var(--main-font-family);
+h2,h3{font-family: var(--main-font-family);
   font-weight: 500;
   font-size: 35px;
   margin: 45px 0;
   text-align: center;
   color: white;
-
 }
 
+img:hover {
+  transform: scale(1.2);
+  transition: 2s;
+}
+
+.nav-link {
+  color: white;
+}
 .git,
 .git a{
+  margin-top: 150px;
   font-size: 14px;
   color: white;
 }
-.nav-link{
-  color: white;}
+
 @media(max-width: 576px){
   h1,h2{font-size: 30px;}
 }
