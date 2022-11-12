@@ -1,7 +1,8 @@
 :root{--main-font-family:'Dosis, sans-serif';
 }
 body {
-  background-image: url("../images/milky-way.png");
+  background-size: cover;
+  background-image: url("../images/galaxy.png");
 }
 
 h1
@@ -9,7 +10,7 @@ h1
   font-family: var(--main-font-family);
   font-weight: 500;
   font-size: 80px;
-  margin: 45px 0;
+  margin: 40px 0;
   text-align: center;
   color: white;
 }
